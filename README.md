@@ -83,21 +83,10 @@ You need to install **Ollama** and download **Code Llama** to run the model loca
   - The correct port (default `11434`) is being used for the Ollama API.
   - Your system has access to the internet if using an external API.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### `requirements.txt`
-
-```txt
-streamlit==1.24.0
-requests==2.31.0
-json
-ollama  # for Code Llama
-```
-
 ### Notes:
 1. Make sure to modify the `url` variable in your `main.py` file to point to the correct API server (locally or a public one if hosted remotely).
 2. The installation of Ollama and downloading the Code Llama model is necessary only if you're using Code Llama as the backend model.
 3. If you host your API on a cloud service (e.g., Heroku or AWS), update the URL accordingly in the code.
+
+Acknowledgement
+Special Thanks to Krish Naik.
